@@ -1,7 +1,16 @@
+/* Alfredo Gonzalez Div G
+Enunciado Al ingresar una edad debemos informar si la persona es adolescente, edad entre 13 y 17 años (inclusive) 
+*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	
+	edad = txtIdEdad.value
+	edad = parseInt(edad);
 
-
-}//FIN DE LA FUNCIÓN
+	if(edad <18 && edad >12)
+	{
+		alert("Usted es adolescente");
+	}
+	
+}
